@@ -1,0 +1,20 @@
+public class Student_verify{
+    int rollno;
+    int age;
+    static Stirng sclname="AAHSS";
+    static int std=12;
+    int idno;
+    int mark;
+       void display
+        {
+          System.out.println("Rollno:"+rollno+"\n"+"Age"+age+"\n"+"Sclname"+sclname+"\n"+"Std"+std+"\n"+"Id no"+idno+"\n"+"Mark"+mark+"\n");
+         }
+    Student_veryfy(int rollno,int age,int idno,int mark)
+       {
+          this.rollno=rollno;
+          this.age=age;
+          this.idno=idno;
+          this.mark=mark;
+         }
+public static void main(String arg[]){
+    Student_verify s1=new Student_verify(1,20,1201,518);
